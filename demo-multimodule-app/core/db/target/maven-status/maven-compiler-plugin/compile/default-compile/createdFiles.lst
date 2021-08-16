@@ -1,0 +1,2 @@
+com\example\multimodule\db\entity\Customer.class
+com\example\multimodule\db\repository\CustomerRepository.class

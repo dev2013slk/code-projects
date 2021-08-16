@@ -13,6 +13,24 @@ services:
       - 8070:8070
     container_name: lj-crm-service
     hostname: lj-crm-service
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/customer-demo-db
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+  db:
+    image: 'postgres:13.1-alpine'
+    ports:
+      - "5432:5432"
+    container_name: db
+    networks:
+      - lj-network
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=customer-demo-db
 
 networks:
   lj-network:

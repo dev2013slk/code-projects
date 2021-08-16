@@ -6,6 +6,7 @@
     <modules>
         <module>core/utils</module>
         <module>microservices/crm-service</module>
+        <module>core/db</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -44,8 +45,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
-
-
 </project>

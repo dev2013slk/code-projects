@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f50f3b-1699-4afc-864c-c8cd9598ff5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/utils/src/main/java/com/example/multimodule/utils/AppUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/demo-multimodule-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/test/java/com/example/multimodule/crmservice/DemoControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="84f50f3b-1699-4afc-864c-c8cd9598ff5e" name="Default Changelist" comment="mock mvc changes tested">
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/db/src/main/java/com/example/multimodule/db/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/db/src/main/java/com/example/multimodule/db/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/test/java/com/example/multimodule/crmservice/DemoMasterDataIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/core/utils/target/utils-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/core/utils/target/utils-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/crm-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/crm-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/classes/com/example/multimodule/crmservice/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/classes/com/example/multimodule/crmservice/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/crm-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/crm-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/crm-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/crm-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/TEST-com.example.multimodule.crmservice.DemoControllerIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/TEST-com.example.multimodule.crmservice.DemoControllerIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/com.example.multimodule.crmservice.DemoControllerIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/com.example.multimodule.crmservice.DemoControllerIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-multimodule-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-multimodule-app/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-multimodule-app/core" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
@@ -125,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629079496052</updated>
       <workItem from="1629079497484" duration="5334000" />
-      <workItem from="1629118861688" duration="6507000" />
+      <workItem from="1629118861688" duration="13771000" />
     </task>
     <task id="LOCAL-00001" summary="fabric 8 with integration test">
       <created>1629101815105</created>
@@ -154,6 +160,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="mock mvc changes tested" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="668" y="304" key="#Assign_Data_Sources" timestamp="1629137246367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="668" y="304" key="#Assign_Data_Sources/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629137246367" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1629106601971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -166,29 +176,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="277" width="783" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629106761394" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1629104168710">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1629125415663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629104168710" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1629125349230">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125415663" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1629133723450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349230" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629133723450" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1629139401240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629139401240" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1629125349229">
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1629139401240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349229" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629139401240" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1629125349229">
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1629139401240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349229" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629139401240" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1629125349230">
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1629139401240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349230" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629139401240" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
     <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1629111776935">
       <screen x="0" y="0" width="1536" height="824" />
@@ -210,6 +224,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1629079569855" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1629137178676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629137178676" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1629106491443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -218,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629104172887" />
-    <state x="209" y="73" key="new project wizard" timestamp="1629105934977">
+    <state x="209" y="73" key="new project wizard" timestamp="1629133728725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="73" key="new project wizard/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629105934977" />
+    <state x="209" y="73" key="new project wizard/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629133728725" />
     <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629079721628" />
   </component>
 </project>
