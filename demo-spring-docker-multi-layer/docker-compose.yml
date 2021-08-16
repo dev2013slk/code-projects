@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+
+  multilayer-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lj-multi-layer-service
+    networks:
+      - lj-multi-layer-network
+    ports:
+      - 8070:8070
+    container_name: lj-multi-layer-service
+    hostname: lj-multi-layer-service
+
+networks:
+  lj-multi-layer-network:
+    driver: bridge
+

@@ -79,39 +79,27 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>io.fabric8</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>0.20.0</version>
+                <groupId>com.dkanejs.maven.plugins</groupId>
+                <artifactId>docker-compose-maven-plugin</artifactId>
+                <version>2.4.0</version>
+                <configuration>
+                    <composeFile>${project.basedir}/docker-compose.yml</composeFile>
+                    <detachedMode>true</detachedMode>
+                    <removeVolumes>true</removeVolumes>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>prepare-it-database</id>
+                        <id>docker-compose-up</id>
                         <phase>pre-integration-test</phase>
                         <goals>
-                            <goal>start</goal>
+                            <goal>up</goal>
                         </goals>
-                        <configuration>
-                            <!--<images>
-                                <image>
-                                    <name>postgres:13.1-alpine</name>
-                                    <alias>it-database</alias>
-                                    <run>
-                                        <ports>
-                                            <port>it-database.port:5432</port>
-                                        </ports>
-                                        <wait>
-                                            <log>(?s)database system is ready to accept connections.*database system is ready to accept connections</log>
-                                            <time>20000</time>
-                                        </wait>
-                                    </run>
-                                </image>
-                            </images>-->
-                        </configuration>
                     </execution>
                     <execution>
-                        <id>remove-it-database</id>
+                        <id>docker-compose-down</id>
                         <phase>post-integration-test</phase>
                         <goals>
-                            <goal>stop</goal>
+                            <goal>down</goal>
                         </goals>
                     </execution>
                 </executions>
