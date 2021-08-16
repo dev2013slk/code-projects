@@ -8,7 +8,7 @@ COPY pom.xml .
 COPY src src
 
 #to cache mvn
-RUN --mount=type=cache,target=/root/.m2 ./mvnw install
+RUN --mount=type=cache,target=/root/.m2 ./mvnw clean package
 #RUN mvn clean package
 RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 

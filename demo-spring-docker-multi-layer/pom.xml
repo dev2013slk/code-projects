@@ -16,7 +16,8 @@
     <properties>
         <java.version>11</java.version>
         <skipTests>false</skipTests>
-        <skipUnitTests>${skipTests}</skipUnitTests>
+        <!--<skipUnitTests>${skipTests}</skipUnitTests>-->
+        <skipUnitTests>true</skipUnitTests>
         <skipIntegrationTests>false</skipIntegrationTests>
     </properties>
     <dependencies>
@@ -73,6 +74,44 @@
                         <goals>
                             <goal>integration-test</goal>
                             <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.20.0</version>
+                <executions>
+                    <execution>
+                        <id>prepare-it-database</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                        <configuration>
+                            <!--<images>
+                                <image>
+                                    <name>postgres:13.1-alpine</name>
+                                    <alias>it-database</alias>
+                                    <run>
+                                        <ports>
+                                            <port>it-database.port:5432</port>
+                                        </ports>
+                                        <wait>
+                                            <log>(?s)database system is ready to accept connections.*database system is ready to accept connections</log>
+                                            <time>20000</time>
+                                        </wait>
+                                    </run>
+                                </image>
+                            </images>-->
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>remove-it-database</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>stop</goal>
                         </goals>
                     </execution>
                 </executions>
