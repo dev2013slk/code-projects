@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84f50f3b-1699-4afc-864c-c8cd9598ff5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/src/main/java/com/example/lj/demospringdockermultilayer/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/src/main/java/com/example/lj/demospringdockermultilayer/DemoSpringDockerMultiLayerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/src/test/java/com/example/lj/demospringdockermultilayer/DemoSpringDockerMultiLayerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-docker-multi-layer/src/test/java/com/example/lj/demospringdockermultilayer/MyTestIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/core/utils/src/main/java/com/example/multimodule/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/demo-multimodule-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/java/com/example/multimodule/crmservice/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service/src/test/java/com/example/multimodule/crmservice/DemoControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-multimodule-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-docker-from-mvn-build" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wn1NJo8NJ3IOkjqd64FvqVsVDb" />
@@ -42,19 +52,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-multimodule-app/microservices/crm-service" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.multimodule.crmservice" />
       <recent name="com.example.lj.demospringdockermultilayer" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\my\my-repo\demo-multimodule-app\microservices\crm-service" />
+      <recent name="D:\Projects\my\my-repo\demo-multimodule-app" />
+      <recent name="D:\Projects\my\my-repo\demo-multimodule-app\microservices\crm-service\src\test\java" />
+      <recent name="D:\Projects\my\my-repo\demo-multimodule-app\microservices\crm-service\src\main\resources" />
+      <recent name="D:\Projects\my\my-repo\demo-spring-docker-multi-layer" />
+    </key>
   </component>
-  <component name="RunManager" selected="Docker.demo-spring-docker-multi-layer/Dockerfile">
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="crm-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.multimodule.crmservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.multimodule.crmservice.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoSpringDockerMultiLayerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-spring-docker-multi-layer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lj.demospringdockermultilayer.DemoSpringDockerMultiLayerApplication" />
@@ -72,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="Docker.demo-spring-docker-multi-layer/Dockerfile" />
       </list>
     </recent_temporary>
@@ -87,7 +125,23 @@
       <option name="presentableId" value="Default" />
       <updated>1629079496052</updated>
       <workItem from="1629079497484" duration="5334000" />
+      <workItem from="1629118861688" duration="6507000" />
     </task>
+    <task id="LOCAL-00001" summary="fabric 8 with integration test">
+      <created>1629101815105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629101815106</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mock mvc changes tested">
+      <created>1629104169821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629104169821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,31 +149,79 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fabric 8 with integration test" />
+    <MESSAGE value="mock mvc changes tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock mvc changes tested" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1629080457701">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1629106601971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629106601971" />
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1629106758233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629106758233" />
+    <state x="479" y="277" width="783" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629106761394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="277" width="783" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629106761394" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1629104168710">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629104168710" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1629125349230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349230" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1629080457701">
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1629125349229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349229" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1629080457701">
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1629125349229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349229" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1629080457701">
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1629125349230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629125349230" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629080457701" />
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1629111776935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629111776935" />
+    <state width="1493" height="203" key="GridCell.Tab.1.center" timestamp="1629111776935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.center/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629111776935" />
+    <state width="1493" height="203" key="GridCell.Tab.1.left" timestamp="1629111776935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.left/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629111776935" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right" timestamp="1629111776935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.right/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629111776935" />
     <state x="349" y="147" key="IDE.errors.dialog" timestamp="1629079569855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1629079569855" />
-    <state x="209" y="73" key="new project wizard" timestamp="1629079721628">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1629106491443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629106491443" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1629104172887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629104172887" />
+    <state x="209" y="73" key="new project wizard" timestamp="1629105934977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824/-1920.-234.1920.1040@0.0.1536.824" timestamp="1629105934977" />
     <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629079721628" />
   </component>
 </project>

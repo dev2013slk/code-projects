@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+
+  crm-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lj-crm-service
+    networks:
+      - lj-network
+    ports:
+      - 8070:8070
+    container_name: lj-crm-service
+    hostname: lj-crm-service
+
+networks:
+  lj-network:
+    driver: bridge
+
